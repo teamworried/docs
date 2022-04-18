@@ -87,5 +87,6 @@ Run the generator:
 rails generate cucumber:install
 ```
 
+
 Cucumber-Rails will detect whether the RSpec gems are installed. If so, then the rails generator builds the environment files to suit.
 If not, it ignores RSpec and configures for test-unit instead.
